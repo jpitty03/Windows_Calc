@@ -16,5 +16,11 @@ namespace Win_Calc
         {
             InitializeComponent();
         }
+
+
+        private void button_Click(object sender, EventArgs e)
+        {
+            result.Text = result.Text + "1";
+        }
     }
 }
